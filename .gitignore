@@ -1,6 +1,6 @@
 docs
 SPEC.md
-.env
+.env*
 node_modules
 next-env.d.ts
 .next
