@@ -1,0 +1,7 @@
+docs
+SPEC.md
+.env
+node_modules
+next-env.d.ts
+.next
+tsconfig.tsbuildinfo
