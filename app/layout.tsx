@@ -2,7 +2,10 @@ import './globals.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Nyam's Profile",
+  title: {
+    default: "Nyam's Profile",
+    template: "%s | Nyam's Profile",
+  },
   description: 'my funky profile',
 };
 

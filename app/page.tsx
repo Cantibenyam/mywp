@@ -1,10 +1,3 @@
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Landing Page',
-  description: 'the main page featuring my profile',
-};
-
 export default function Page() {
   return (
     <div>
