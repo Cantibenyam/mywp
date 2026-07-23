@@ -1,8 +1,14 @@
 export default function Page() {
   return (
     <div>
-      <h1>Nyam's page</h1>
-      <p> This is my micro - page, it will grow i promise</p>
+      <div>
+        <h1 className="welcomePageHeader">Nyam's Page</h1>
+        <p className="profilePageDescriptor"> My name is Nyam, and this is my profile page</p>
+      </div>
+
+      <div>
+        <p>some description</p>
+      </div>
     </div>
   );
 }
