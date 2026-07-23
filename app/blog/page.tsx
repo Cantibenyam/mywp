@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'blog',
+  title: 'Blog',
 };
 
 export default function Page() {
