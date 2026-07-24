@@ -56,3 +56,9 @@ Footer {
   flex-direction: row;
   justify-content: center;
 }
+
+.NavigationHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

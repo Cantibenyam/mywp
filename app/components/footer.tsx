@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <div>
-      <p>Footer Section Template</p>
-    </div>
+    <footer>
+      <div>
+        <p>Contact me</p>
+      </div>
+    </footer>
   );
 }
