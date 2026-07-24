@@ -2,21 +2,23 @@ import Link from 'next/link';
 
 export default function Navigation() {
   return (
-    <div className="NavigationHeader">
-      <Link href="./">Home</Link>
+    <div>
       <nav>
-        <ul>
-          <li>
-            <Link href="./projects"> Projects </Link>
+        <ul className="tabItems">
+          <li className="Tab">
+            <Link href="/">Home</Link>
           </li>
-          <li>
-            <Link href="./blog"> Blog </Link>
+          <li className="Tab">
+            <Link href="/projects"> Projects </Link>
           </li>
-          <li>
-            <Link href="./contact"> Contact </Link>
+          <li className="Tab">
+            <Link href="/blog"> Blog </Link>
           </li>
-          <li>
-            <Link href="./resume"> Resume </Link>
+          <li className="Tab">
+            <Link href="/contact"> Contact </Link>
+          </li>
+          <li className="Tab">
+            <Link href="/resume"> Resume </Link>
           </li>
         </ul>
       </nav>

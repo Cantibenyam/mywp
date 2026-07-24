@@ -4,6 +4,8 @@
   --color-text: #1e1e24;
   --color-muted: lightgrey;
   --color-surface: #f5f2ea;
+  --color-paper: lightyellow;
+  --color-tab: yellow;
 
   --text-sm: 0.83rem;
   --text-base: 1rem;
@@ -45,17 +47,6 @@ body {
   margin-bottom: 0px;
 }
 
-main {
-  background-color: var(--color-surface);
-  display: flex;
-  flex-direction: column;
-  min-height: 80vh;
-  padding-bottom: var(--space-4);
-  margin: auto var(--space-4) auto var(--space-4);
-  box-shadow: 0px 0px 10px 1px var(--color-muted);
-  margin-inline: auto;
-}
-
 img {
   max-width: 100%;
 }
@@ -79,12 +70,50 @@ footer {
   justify-content: center;
 }
 
-.NavigationHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .homepageDesc {
   margin: var(--space-1) var(--space-4);
+}
+
+.Tab {
+  list-style-type: none;
+  padding: 1rem 2rem;
+  background-color: var(--color-tab);
+}
+
+.Tabs {
+  position: absolute;
+  right: -1.75rem;
+  top: 1rem;
+  z-index: 1;
+}
+
+.tabItems {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.Paper {
+  position: relative;
+  margin: 1rem;
+  background-color: var(--color-paper);
+}
+
+.Folder {
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  padding-bottom: var(--space-4);
+  box-shadow: 0px 0px 10px 1px var(--color-muted);
+  position: relative;
+  max-width: 90ch;
+  margin-inline: auto;
+}
+
+.portrait {
+  position: relative;
+  left: 3rem;
 }
