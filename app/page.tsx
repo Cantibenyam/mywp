@@ -7,7 +7,7 @@ export default function Page() {
       </div>
 
       <div>
-        <p>some description</p>
+        <p className="homepageDesc">some description</p>
       </div>
     </div>
   );
