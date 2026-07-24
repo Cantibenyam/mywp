@@ -1,3 +1,5 @@
+import Portrait from './components/portrait';
+
 export default function Page() {
   return (
     <div>
@@ -7,6 +9,7 @@ export default function Page() {
       </div>
 
       <div>
+        <Portrait></Portrait>
         <p className="homepageDesc">some description</p>
       </div>
     </div>
