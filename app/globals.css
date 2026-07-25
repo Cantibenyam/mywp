@@ -5,7 +5,7 @@
   --color-muted: lightgrey;
   --color-surface: #f5f2ea;
   --color-paper: lightyellow;
-  --color-tab: yellow;
+  --color-tab: #fff0f0;
 
   --text-sm: 0.83rem;
   --text-base: 1rem;
@@ -75,9 +75,13 @@ footer {
 }
 
 .Tab {
-  list-style-type: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: var(--color-tab);
+  border-radius: 0 8px 8px 0;
+  display: block;
+  text-decoration: none;
+  color: var(--color-text);
+  text-align: right;
 }
 
 .Tabs {
@@ -85,14 +89,20 @@ footer {
   right: -1.75rem;
   top: 1rem;
   z-index: 1;
-}
-
-.tabItems {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
   padding: 0;
   margin: 0;
+}
+.Tabs ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .Paper {

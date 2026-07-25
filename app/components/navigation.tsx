@@ -4,21 +4,31 @@ export default function Navigation() {
   return (
     <div>
       <nav>
-        <ul className="tabItems">
-          <li className="Tab">
-            <Link href="/">Home</Link>
+        <ul>
+          <li>
+            <Link href="/" className="Tab">
+              Home
+            </Link>
           </li>
-          <li className="Tab">
-            <Link href="/projects"> Projects </Link>
+          <li>
+            <Link href="/projects" className="Tab">
+              Projects
+            </Link>
           </li>
-          <li className="Tab">
-            <Link href="/blog"> Blog </Link>
+          <li>
+            <Link href="/blog" className="Tab">
+              Blog
+            </Link>
           </li>
-          <li className="Tab">
-            <Link href="/contact"> Contact </Link>
+          <li>
+            <Link href="/contact" className="Tab">
+              Contact
+            </Link>
           </li>
-          <li className="Tab">
-            <Link href="/resume"> Resume </Link>
+          <li>
+            <Link href="/resume" className="Tab">
+              Resume
+            </Link>
           </li>
         </ul>
       </nav>
