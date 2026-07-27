@@ -56,9 +56,9 @@ img {
   flex-direction: row;
   justify-content: center;
   font-size: var(--text-2xl);
+  line-height: 3rem;
 }
 .profilePageDescriptor {
-  margin-top: var(--space-1);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,10 +68,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.homepageDesc {
-  margin: var(--space-1) var(--space-4);
 }
 
 .Tab {
@@ -108,7 +104,22 @@ footer {
 .Paper {
   position: relative;
   margin: 1rem;
-  background-color: var(--color-muted);
+  background-color: var(--color-paper);
+  background-image: repeating-linear-gradient(
+    transparent 0 calc(1.5rem - 1px),
+    #b8c5d6 calc(1.5rem - 1px) 1.5rem
+  );
+  line-height: 1.5rem;
+  box-shadow: 0 0 5px 2px lightgrey;
+  flex-grow: 1;
+}
+
+.Paper h1 {
+  margin: 0 0 1.5rem;
+}
+
+.Paper p {
+  margin: 0 0 1.5rem;
 }
 
 .Folder {
